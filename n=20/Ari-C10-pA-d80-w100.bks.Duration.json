@@ -1,0 +1,21 @@
+{
+    "instance_name": "Ari-C10-pA-d80-w100",
+    "routes": [
+        [1, 2, 5, 7, 10, 11],
+        [3, 4, 6, 8, 9],
+        [12, 13, 14, 15, 18, 19, 20],
+        [16, 17]
+    ],
+    "cost": 2194.719841265547,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "Onyr heuristic solutions (legacy TDVRPTW-benchmarks personal BKS store)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-03",
+        "route_durations": [796.8930842607314, 541.0443079443079, 602.4566157271745, 254.32583333333332],
+        "route_departure_times": [20.48529411764706, 125.48108108108109, 632.5883842728254, 893.8041666666668],
+        "legacy_declared_value": 2194.719841265546,
+        "legacy_key": "Ari10-n=22-d967a76d1a11b3477bb53d480a4aa36ccadddee2.json"
+    },
+    "objective_function": "Duration"
+}

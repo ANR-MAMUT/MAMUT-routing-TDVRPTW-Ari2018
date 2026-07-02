@@ -1,0 +1,87 @@
+{
+    "instance_name": "Ari-A9-pA-d95-w25",
+    "instance_origin": "Ari2018",
+    "benchmark_name": "Ari2018",
+    "num_customers": 20,
+    "num_vehicles": 20,
+    "vehicle_capacity": 107,
+    "coordinates": [
+        [68.04620090636878, 6.178034363330373],
+        [-1.7276481952132758, 7.533396241224344],
+        [-22.063648595468784, -2.0957977593043497],
+        [-7.336533271795959, -2.8198127512651574],
+        [17.532327362731788, -4.0365428916980814],
+        [-8.912431512658483, 6.994720871814432],
+        [-12.23304730140873, -3.887615884160491],
+        [-5.335319806611231, 2.566744190418119],
+        [0.9472225633627064, 1.085065911791085],
+        [12.188927576661166, -4.041619357070751],
+        [4.362109577161694, -1.5341513812194405],
+        [-7.622016496868291, -5.225475785190764],
+        [-0.39370226217297616, -10.098457317851203],
+        [-3.932102922127001, 5.04572793392781],
+        [-3.031228011549841, -3.583788496029541],
+        [-17.292148051615232, 14.441509769698541],
+        [-0.7396348167004947, 5.130204589956271],
+        [-7.771508736924923, -1.594641104170403],
+        [6.881287873086346, -11.830247165123339],
+        [-1.4981678238665015, 0.3819901522120752],
+        [-10.068938054390745, 1.3907558687104689]
+    ],
+    "demands": [0, 14, 6, 20, 35, 48, 41, 3, 27, 2, 8, 13, 7, 13, 37, 1, 13, 14, 7, 12, 3],
+    "service_times": [0, 30, 20, 42, 15, 26, 24, 55, 29, 15, 20, 20, 32, 51, 23, 23, 34, 26, 26, 29, 22],
+    "time_windows": [
+        [0, 1700],
+        [10, 119],
+        [16, 142],
+        [21, 163],
+        [35, 218],
+        [57, 307],
+        [66, 343],
+        [70, 357],
+        [73, 369],
+        [78, 391],
+        [81, 404],
+        [86, 424],
+        [90, 440],
+        [97, 467],
+        [104, 494],
+        [121, 561],
+        [133, 609],
+        [137, 625],
+        [145, 658],
+        [152, 688],
+        [156, 701]
+    ],
+    "depot": 0,
+    "horizon": [0.0, 1700.0],
+    "td": {
+        "model": "atf-ndcpwlf",
+        "atf_path": "Ari-A9-pA-d95-w25.atf.json.gz",
+        "atf_sha256": "979bd93e895068578567b1530fc9f3bf86f2587808391aa8e565da0c037e2736"
+    },
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "generated_at": "2026-07-03",
+        "generator": {
+            "name": "populate_td_ari_vu",
+            "version": "1",
+            "source": "Arigliano-generator raw trees + legacy TDVRPTW-benchmarks attribute harvest + option-A curated selection"
+        },
+        "raw_source": "Ari2018/20/Delta95/PatternA/Width_25/20Anodi_9_tw_new.txt",
+        "legacy_attribute_source": "n=22/Ari9-n=22-d58eb44afab451411aac192a1ca113008fb01cdb.json",
+        "parameters": {
+            "delta": 95,
+            "pattern": "A",
+            "width": 25,
+            "tw_class": "A",
+            "index": 9
+        },
+        "coordinates_method": {
+            "name": "stress-layout (deterministic SMACOF, classical-MDS init, 2D)",
+            "stress1": 0.0868642062132773,
+            "pearson_r": 0.9925473394387123
+        },
+        "notes": "Origin: the Ari2018 TD-TSPTW benchmark (Arigliano-generator raw data; IGP model with 73 speed zones and 3 profiles), consolidated into exact arrival-time NDCPWLFs. This canonical family is the VRP variant curated by Onyr: demands, vehicle capacity, fleet size and service times were generated once by the legacy TDVRPTW-benchmarks pipeline and are pinned here verbatim; raw time windows are kept unchanged. The family ships a deterministic curated subset (one instance per structural cell, legacy-BKS candidates preferred, ties by ascending SHA-256 of the instance name); the full factorial raw trees remain available upstream. Coordinates are a deterministic stress-layout embedding of the raw distance matrix."
+    }
+}

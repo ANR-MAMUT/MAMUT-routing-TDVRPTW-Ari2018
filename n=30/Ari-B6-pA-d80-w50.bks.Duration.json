@@ -1,0 +1,22 @@
+{
+    "instance_name": "Ari-B6-pA-d80-w50",
+    "routes": [
+        [1, 4, 3, 9, 6],
+        [5, 2, 7, 10, 11],
+        [8, 17, 13, 14, 28, 12, 15, 19, 16],
+        [20, 18, 21, 26, 30, 24, 25, 22, 23],
+        [27, 29]
+    ],
+    "cost": 1929.7613027346365,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "Onyr heuristic solutions (legacy TDVRPTW-benchmarks personal BKS store)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-03",
+        "route_durations": [374.7033051442199, 410.766119295849, 509.5701018347438, 466.1571818652293, 168.5645945945945],
+        "route_departure_times": [22.852679411764672, 0.0, 271.9486486486486, 571.404582840653, 994.4054054054055],
+        "legacy_declared_value": 1929.7613027346367,
+        "legacy_key": "Ari6-n=32-065d723e5dd5fd55496c83edf4b457905477b1a4.json"
+    },
+    "objective_function": "Duration"
+}

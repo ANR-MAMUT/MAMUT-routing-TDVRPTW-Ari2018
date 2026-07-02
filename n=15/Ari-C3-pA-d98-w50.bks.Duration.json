@@ -1,0 +1,20 @@
+{
+    "instance_name": "Ari-C3-pA-d98-w50",
+    "routes": [
+        [1, 3, 5, 8, 12, 7, 13, 11, 15, 14],
+        [2, 6, 4, 10],
+        [9]
+    ],
+    "cost": 1385.7203420846517,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "Onyr heuristic solutions (legacy TDVRPTW-benchmarks personal BKS store)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-03",
+        "route_durations": [772.0995606462234, 422.291823909471, 191.3289575289574],
+        "route_departure_times": [20.5038370371741, 0.0, 580.1567567567569],
+        "legacy_declared_value": 1385.7203420846517,
+        "legacy_key": "Ari3-n=17-32ce0bf2ee013866426485218736e6e1848d0805.json"
+    },
+    "objective_function": "Duration"
+}
