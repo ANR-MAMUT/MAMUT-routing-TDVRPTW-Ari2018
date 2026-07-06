@@ -1,0 +1,20 @@
+{
+    "instance_name": "Ari-B5-pA-d70-w50",
+    "routes": [
+        [3, 1, 6, 5, 10, 8, 13, 7, 15, 11],
+        [2, 4, 9, 14],
+        [12]
+    ],
+    "cost": 1221.2830321309762,
+    "metadata": {
+        "source": "kayros 0.0.1.dev0 TD-ACO (seed=42, time_limit=120.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [599.7091634405947, 395.2259241071428, 226.34794458323867],
+        "route_departure_times": [8.940000000000003, 15.931218750000008, 253.65205541676133],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 1221.2830321309762,
+        "validated_num_routes": 3,
+        "date": "2026-07-04T21:41:27"
+    },
+    "objective_function": "Duration"
+}

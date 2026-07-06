@@ -1,0 +1,21 @@
+{
+    "instance_name": "Ari-C3-pB-d80-w25",
+    "routes": [
+        [3, 5, 8, 2, 6, 11],
+        [4, 12, 17, 15, 19, 10, 13, 20, 18],
+        [1, 9, 14, 7],
+        [16]
+    ],
+    "cost": 1739.683644625768,
+    "metadata": {
+        "source": "kayros 0.0.1.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [421.5638734557653, 613.0030046728468, 548.4195271149166, 156.69723938223933],
+        "route_departure_times": [0.0, 76.77698018874487, 6.5804728850833705, 941.6177606177607],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 1739.683644625768,
+        "validated_num_routes": 4,
+        "date": "2026-07-04T21:41:31"
+    },
+    "objective_function": "Duration"
+}

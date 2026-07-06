@@ -1,0 +1,21 @@
+{
+    "instance_name": "Ari-B8-pA-d80-w0",
+    "routes": [
+        [15, 20, 3, 5, 14, 18, 6, 8],
+        [11, 2, 17, 19],
+        [1, 16, 10, 7, 12, 13, 9],
+        [4]
+    ],
+    "cost": 1336.2484335693546,
+    "metadata": {
+        "source": "kayros 0.0.1.dev0 TD-ACO (seed=2026, time_limit=120.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [468.38637619485297, 328.81054583995757, 419.4404004234329, 119.6111111111111],
+        "route_departure_times": [0.0, 0.0, 0.19531386228140124, 0.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 1336.2484335693546,
+        "validated_num_routes": 4,
+        "date": "2026-07-04T21:41:30"
+    },
+    "objective_function": "Duration"
+}

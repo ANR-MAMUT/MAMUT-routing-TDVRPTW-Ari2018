@@ -1,0 +1,22 @@
+{
+    "instance_name": "Ari-A3-pB-d95-w0",
+    "routes": [
+        [15, 7, 8, 25],
+        [2, 26, 28, 30, 4, 3],
+        [9, 19, 5, 23, 11, 10, 16, 12, 29, 6, 22, 18, 14],
+        [24, 1, 13, 20, 21, 17],
+        [27]
+    ],
+    "cost": 1416.4586661986662,
+    "metadata": {
+        "source": "kayros 0.0.1.dev0 TD-ACO (seed=123, time_limit=120.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [194.06224406224408, 295.45625, 411.2396428571429, 358.15458333333333, 157.54594594594593],
+        "route_departure_times": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 1416.4586661986662,
+        "validated_num_routes": 5,
+        "date": "2026-07-04T21:41:33"
+    },
+    "objective_function": "Duration"
+}
