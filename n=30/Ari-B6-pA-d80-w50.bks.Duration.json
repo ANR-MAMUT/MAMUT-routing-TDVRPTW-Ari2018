@@ -3,20 +3,20 @@
     "routes": [
         [1, 4, 3, 9, 6],
         [5, 2, 7, 10, 11],
-        [8, 17, 13, 14, 28, 12, 15, 19, 16],
-        [20, 18, 21, 26, 30, 24, 25, 22, 23],
+        [16, 8, 12, 13, 26, 14, 28, 15, 19, 23],
+        [17, 20, 18, 21, 30, 24, 25, 22],
         [27, 29]
     ],
-    "cost": 1929.7613027346365,
+    "cost": 1921.057968790763,
     "metadata": {
-        "authors": "Florian Rascoussier (0nyr)",
-        "source": "Onyr heuristic solutions (legacy TDVRPTW-benchmarks personal BKS store)",
+        "source": "kayros 0.2.0.dev0 TD-ACO (seed=3141, time_limit=120.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "date": "2026-07-03",
-        "route_durations": [374.7033051442199, 410.766119295849, 509.5701018347438, 466.1571818652293, 168.5645945945945],
-        "route_departure_times": [22.852679411764672, 0.0, 271.9486486486486, 571.404582840653, 994.4054054054055],
-        "legacy_declared_value": 1929.7613027346367,
-        "legacy_key": "Ari6-n=32-065d723e5dd5fd55496c83edf4b457905477b1a4.json"
+        "route_durations": [374.7033051442199, 410.766119295849, 509.6359002160133, 457.3880495400862, 168.5645945945945],
+        "route_departure_times": [22.852679411764672, 0.0, 288.65999999999997, 570.4146718146718, 994.4054054054055],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 1921.057968790763,
+        "validated_num_routes": 5,
+        "date": "2026-07-06T05:07:54"
     },
     "objective_function": "Duration"
 }

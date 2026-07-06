@@ -3,19 +3,19 @@
     "routes": [
         [1, 2, 3, 4, 5, 6],
         [8, 7, 9, 10, 12, 13],
-        [14, 15, 16, 18, 17, 19, 20],
+        [14, 15, 16, 17, 18, 20, 19],
         [11]
     ],
-    "cost": 1492.3386790729805,
+    "cost": 1484.5577897645544,
     "metadata": {
-        "source": "kayros 0.0.1.dev0 TD-ACO (seed=2026, time_limit=120.0s)",
+        "source": "kayros 0.2.0.dev0 TD-ACO (seed=123, time_limit=120.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [460.7378378378379, 445.6763191763193, 439.2447128378378, 146.6798092209856],
-        "route_departure_times": [2.7081081081081173, 305.4279279279279, 672.3402871621622, 557.4823529411765],
+        "route_durations": [460.7378378378379, 445.6763191763193, 431.4638235294118, 146.6798092209856],
+        "route_departure_times": [2.7081081081081173, 305.4279279279279, 686.3161764705882, 557.4823529411765],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 1492.3386790729805,
+        "validated_cost": 1484.5577897645544,
         "validated_num_routes": 4,
-        "date": "2026-07-04T21:41:32"
+        "date": "2026-07-06T05:07:48"
     },
     "objective_function": "Duration"
 }

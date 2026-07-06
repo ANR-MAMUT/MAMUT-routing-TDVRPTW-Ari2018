@@ -1,22 +1,22 @@
 {
     "instance_name": "Ari-A3-pB-d95-w0",
     "routes": [
-        [15, 7, 8, 25],
-        [2, 26, 28, 30, 4, 3],
-        [9, 19, 5, 23, 11, 10, 16, 12, 29, 6, 22, 18, 14],
-        [24, 1, 13, 20, 21, 17],
-        [27]
+        [25],
+        [15, 7, 13, 27],
+        [2, 11, 23, 1, 10, 21, 3, 5, 19],
+        [8, 30, 17, 4, 9],
+        [26, 28, 20, 14, 16, 24, 12, 29, 6, 22, 18]
     ],
-    "cost": 1416.4586661986662,
+    "cost": 1303.2083579842722,
     "metadata": {
-        "source": "kayros 0.0.1.dev0 TD-ACO (seed=123, time_limit=120.0s)",
+        "source": "kayros 0.2.0.dev0 TD-ACO (seed=3141, time_limit=120.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [194.06224406224408, 295.45625, 411.2396428571429, 358.15458333333333, 157.54594594594593],
-        "route_departure_times": [0.0, 0.0, 0.0, 0.0, 0.0],
+        "route_durations": [134.57837837837837, 196.91176470588235, 330.3963963963964, 253.71224165341806, 387.6095768501969],
+        "route_departure_times": [0.0, 0.0, 0.0, 0.0, 1.1194147464417656],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 1416.4586661986662,
+        "validated_cost": 1303.2083579842722,
         "validated_num_routes": 5,
-        "date": "2026-07-04T21:41:33"
+        "date": "2026-07-06T05:07:49"
     },
     "objective_function": "Duration"
 }

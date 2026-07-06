@@ -1,21 +1,21 @@
 {
     "instance_name": "Ari-C10-pA-d98-w50",
     "routes": [
-        [1, 2, 4, 6, 9],
-        [3, 7, 14, 13, 11, 19, 10, 15, 18, 16],
-        [5, 8, 12, 17],
+        [9, 13, 19, 16, 14],
+        [3, 7, 11, 4, 10, 18, 15, 17, 12],
+        [1, 2, 6, 5, 8],
         [20]
     ],
-    "cost": 1742.4746062250597,
+    "cost": 1648.3177724518346,
     "metadata": {
-        "source": "kayros 0.0.1.dev0 TD-ACO (seed=42, time_limit=120.0s)",
+        "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [402.25690296211394, 847.0978675448752, 393.3798357180709, 99.73999999999978],
-        "route_departure_times": [9.443243243243245, 97.32920420420423, 303.33333333333337, 1065.0],
+        "route_durations": [436.84855011261266, 709.5165336765335, 402.21268866268866, 99.73999999999978],
+        "route_departure_times": [343.15144988738746, 68.51300300300302, 10.324324324324325, 1065.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 1742.4746062250597,
+        "validated_cost": 1648.3177724518346,
         "validated_num_routes": 4,
-        "date": "2026-07-04T21:41:31"
+        "date": "2026-07-06T05:07:47"
     },
     "objective_function": "Duration"
 }
