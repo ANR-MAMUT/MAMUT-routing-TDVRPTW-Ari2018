@@ -1,22 +1,23 @@
 {
     "instance_name": "Ari-C5-pA-d98-w100",
     "routes": [
-        [1, 4, 6, 8, 9, 10, 12],
-        [2, 3, 5, 7],
-        [11, 13, 14, 15, 17, 19, 18],
-        [16, 20, 22, 21, 23, 25, 24, 26, 28, 30],
-        [27, 29]
+        [1, 4],
+        [2, 3, 5],
+        [6, 7, 8, 9],
+        [10, 11, 12, 16],
+        [13, 14, 15, 17, 19, 18, 20, 22, 21, 24, 26, 28, 30],
+        [23, 25, 27, 29]
     ],
-    "cost": 2638.3264590430763,
+    "cost": 2619.319649319279,
     "metadata": {
-        "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous BKS) \u2014 proven optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [814.7945945945945, 583.36806410402, 528.9222072072073, 532.5515931372546, 178.68999999999983],
-        "route_departure_times": [39.6918918918919, 20.50066176470588, 580.8594594594595, 891.7484068627454, 1149.41],
+        "route_durations": [304.9209194488606, 393.5993382352941, 431.02715699024316, 467.0864367040837, 771.0657979407979, 251.61999999999966],
+        "route_departure_times": [39.6918918918919, 20.50066176470588, 290.08470777027026, 500.82947921183217, 653.2342020592021, 1076.4800000000002],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 2638.3264590430763,
-        "validated_num_routes": 5,
-        "date": "2026-07-06T05:07:55"
+        "validated_cost": 2619.319649319279,
+        "validated_num_routes": 6,
+        "date": "2026-07-07T10:29:37"
     },
     "objective_function": "Duration"
 }
