@@ -6,6 +6,8 @@ All notable changes to the curated `Ari2018` TDVRPTW best-known solutions (BKS) 
 
 8 BKS improved by exact solves — **proven optimal**: kayros 0.3.0 lera branch-price-and-cut (HiGHS backend, warm-started from the previous BKS, TL 600 s), from the certification campaign over all families n≤50 (improvements −0.05% to −3.0% across n=15..40). Certificates: optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance. The same campaign certified 30 of the other stored TDVRPTW BKS of this family optimal as stored.
 
+Structured optimality metadata: all 38 BKS of this family proven optimal by that campaign now carry a machine-readable `metadata.optimality` object — prover, certificate wording, proven optimum, dual bound, wall time (schema: `OptimalityMetadata`, mamut-routing-lib ≥ 0.4.0).
+
 ## 2026-07-06 — local-search sweep
 
 152 BKS improved by the first sweep of kayros 0.2.0.dev0 TD-ACO with time-dependent local search (tree-evaluated VND, every accepted move repriced by the checker-identical fold), 10 seeds per instance on Grid'5000.
