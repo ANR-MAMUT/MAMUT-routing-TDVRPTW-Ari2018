@@ -5,14 +5,14 @@
         [3, 4, 6, 8, 10, 11, 13, 14, 15],
         [12]
     ],
-    "cost": 1711.052773655442,
+    "cost": 1711.0527736554418,
     "metadata": {
         "source": "kayros 0.0.1.dev0 TD-ACO (seed=123, time_limit=120.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [640.232909727911, 917.742643850311, 153.0772200772201],
+        "route_durations": [640.232909727911, 917.7426438503107, 153.0772200772201],
         "route_departure_times": [0.0, 48.00407934347123, 600.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 1711.052773655442,
+        "validated_cost": 1711.0527736554418,
         "validated_num_routes": 3,
         "date": "2026-07-04T21:41:27",
         "optimality": {
@@ -21,12 +21,19 @@
             "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
             "date": "2026-08-06",
             "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
-            "proven_optimum": 1711.052773655442,
+            "proven_optimum": 1711.0527736554418,
             "dual_bound": 1711.052773655442,
             "wall_time_s": 1.64,
             "time_limit_s": 1800.0,
             "checker": "mamut-routing-lib td Duration checker",
-            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)",
+            "note": "Re-priced on 2026-09-24 from 1711.052773655442 to 1711.0527736554418 by mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0) (exact vertex ready-time transforms and slope-one arc interpolation). Routes unchanged. The proof was obtained under the pre-0.12 fold (td-fold/1); dual_bound is the prover's value under that arithmetic. Re-certification under td-fold/2 is pending."
+        },
+        "repriced": {
+            "previous_cost": 1711.052773655442,
+            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
+            "contract": "td-fold/2",
+            "date": "2026-09-24"
         }
     },
     "objective_function": "Duration"
