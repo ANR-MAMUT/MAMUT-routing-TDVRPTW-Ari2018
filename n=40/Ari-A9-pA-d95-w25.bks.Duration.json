@@ -9,16 +9,22 @@
         [31],
         [33, 32, 37, 40, 35, 38]
     ],
-    "cost": 2551.9354750325797,
+    "cost": 2551.93547503258,
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
         "source": "kayros 1.1.2 TD-ILS (seed=456, time_limit=600.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
         "date": "2026-07-20T06:45:10",
-        "route_durations": [421.5174450806415, 672.1320970888821, 361.21689075630246, 391.96514755313893, 291.50794860766905, 131.2266666666668, 282.3692792792791],
-        "route_departure_times": [0.0, 10.645101160659907, 46.35999999999999, 24.69117647058824, 848.9729729729729, 1005.9333333333333, 993.7207207207208],
-        "validated_cost": 2551.9354750325797,
-        "validated_num_routes": 7
+        "route_durations": [421.5174450806415, 672.1320970888821, 361.21689075630246, 391.96514755313893, 291.50794860766905, 131.2266666666668, 282.3692792792792],
+        "route_departure_times": [0.0, 10.645101160659907, 46.35999999999999, 24.69117647058824, 848.9729729729729, 1005.9333333333333, 993.7207207207207],
+        "validated_cost": 2551.93547503258,
+        "validated_num_routes": 7,
+        "repriced": {
+            "previous_cost": 2551.9354750325797,
+            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
+            "contract": "td-fold/2",
+            "date": "2026-09-24"
+        }
     },
     "objective_function": "Duration"
 }

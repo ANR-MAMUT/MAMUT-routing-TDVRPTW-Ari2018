@@ -10,7 +10,7 @@
         "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
         "route_durations": [272.5007304601899, 365.96810129457185, 165.64499999999998],
-        "route_departure_times": [0.0, 4.427027027027014, 0.0],
+        "route_departure_times": [0.0, 4.427027027027026, 0.0],
         "authors": "Florian Rascoussier (0nyr)",
         "validated_cost": 804.1138317547618,
         "validated_num_routes": 3,
